@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alkhensha.cafe_uas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RaPat Cafe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".MenuActivity.MenuDetail"/>
+        <activity android:name=".MenuActivity.LookMenu"/>
+        <activity android:name=".OrderActivity.LookOrder"/>
+        <activity android:name=".OrderActivity.OrderDetail"/>
+        <activity android:name=".PilihActivityOrder"/>
+        <activity android:name=".OrderDetailActivity.LookOrderDetail"/>
+        <activity android:name=".OrderDetailActivity.OrderDetailDetail"/>
+    </application>
+
+</manifest>

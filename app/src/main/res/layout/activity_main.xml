@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application for Waitress"
+        android:textColor="#FFBAA8"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/TakeOrder"
+        android:layout_alignStart="@+id/TakeOrder" />
+
+
+    <ImageButton
+        android:id="@+id/TakeOrder"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/orderpic"
+        android:background="#DC143C"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="186dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:textStyle="bold"
+        android:textColor="#FFBAA8"
+        android:textSize="20sp"
+        android:layout_below="@+id/TakeOrder"
+        android:layout_alignLeft="@+id/TakeOrder"
+        android:layout_alignStart="@+id/TakeOrder" />
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/seeMenu"
+        android:src="@mipmap/ic_launcher"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        android:layout_alignTop="@+id/TakeOrder"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textStyle="bold"
+        android:textColor="#FFBAA8"
+        android:textSize="20sp"
+        android:layout_below="@+id/seeMenu"
+        android:layout_alignLeft="@+id/seeMenu"
+        android:layout_alignStart="@+id/seeMenu"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+
+
+
+</RelativeLayout>
